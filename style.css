@@ -1,15 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+    
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     background-color: aliceblue;
+    padding: 10px;
 }
 
 nav li{
   display: inline-block;
   margin-right: 20px;
+  a{
+    color: 
+rgb(38, 0, 255);
 }
-
+a:hover{
+    color: 
+rgb(30, 17, 216);
+}
+a:visited{
+    color: 
+rgb(45, 43, 146);
+}
+}
+html{
+    font-size: 100%;
+  }
+  .site-title{
+    font-family: "Jaro", sans-serif;
+    font-size: 50px;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
 body{
     background-color: aquamarine;
     color: #ff00c8;
@@ -25,5 +53,5 @@ img, video{
     height: auto;
 }
 h1{
-    color: #862cda;
+    color: #8400ff;
 }
